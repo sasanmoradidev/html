@@ -1,0 +1,19 @@
+@media (max-width: 576px) {}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    .boxtitle {
+        width: 1100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .boxtitle {
+        width: 1600px;
+    }
+}
