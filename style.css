@@ -582,12 +582,11 @@ div {
 }
 
 .section {
-    background-image: url(./img/middle_right.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 200px;
-}
 
+}
+.paraimgright, .paraimgleft {
+    display: none;
+}
 .row.one.reverse {
     flex-direction: column-reverse;
 }

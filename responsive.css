@@ -1,5 +1,4 @@
-@media (max-width: 576px) {
-}
+@media (max-width: 576px) {}
 
 @media (min-width: 576px) {
     .container {
@@ -7,8 +6,7 @@
     }
 }
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 @media (min-width: 992px) {
     .container {
@@ -54,10 +52,7 @@
     }
 
     .section {
-        background-image: url(./img/middle_left.png), url(./img/middle_right.png);
-        background-repeat: no-repeat;
-        background-position: left top, right 490px;
-        background-size: 387px, 305px;
+   
     }
 
     .section {
@@ -114,23 +109,57 @@
         margin-bottom: 0;
         width: 58.333333%;
     }
-    .boxtwo, .boxthree, .boxfour, .boxfive, .boxsix {
+
+    .boxtwo,
+    .boxthree,
+    .boxfour,
+    .boxfive,
+    .boxsix {
         padding: 70px 60px;
     }
-    .boxtwo h3, .boxthree h3, .boxfour h3, .boxfive h3, .boxsix h3 {
+
+    .boxtwo h3,
+    .boxthree h3,
+    .boxfour h3,
+    .boxfive h3,
+    .boxsix h3 {
         color: #fff;
         font-size: 18px;
         font-weight: bold;
         margin-bottom: 30px;
         line-height: initial;
     }
-    .boxtwo p, .boxthree p, .boxfour p, .boxfive p, .boxsix p {
+
+    .boxtwo p,
+    .boxthree p,
+    .boxfour p,
+    .boxfive p,
+    .boxsix p {
         color: #fff;
         font-size: 15px;
         line-height: 22px;
     }
+
     .boxtitle {
         /* margin-bottom: 0px; */
+    }
+    .paraimgright, .paraimgleft {
+        display: block;
+    }
+    .paraimgleft {
+        position: absolute;
+        left: 0;
+        width: 387px;
+    }
+
+    .paraimgright img, .paraimgleft img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .paraimgright {
+        position: absolute;
+        right: 0;
+        width: 305px;
     }
 }
 
